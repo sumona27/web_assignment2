@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A beautiful Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .header {
+      background-color: #cf3bb9;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .footer {
+      background-color: #cf3bb9;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .column {
+      flex-basis: 30%;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .column h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .column img {
+      width: 100%;
+      max-height: 200px; 
+      object-fit: cover; 
+      margin-bottom: 10px;
+    }
+
+    .column video,
+    .column audio {
+      width: 100%; 
+      max-height: 200px; 
+      object-fit: cover; 
+      margin-bottom: 10px;
+    }
+
+    .column p {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>A beautiful Gallery</h1>
+  </div>
+
+  <div class="container">
+    <div class="column">
+      <h2>Pictures Only</h2>
+      <h3>The Flower</h3>
+      <img src="https://img.freepik.com/free-photo/closeup-textural-bright-exotic-flowers-generative-al_169016-28578.jpg?w=1060&t=st=1691433167~exp=1691433767~hmac=afd418c230288cd20ea7bb98d26722593da65afb0ed7b7cfde5f111b1c5bb497" alt="Image 1">
+      
+      <p>AI Image Generator Turn your words images</p>
+      <h3>The Sea</h3>
+      <img src="https://img.freepik.com/premium-vector/beautiful-underwater-various-kinds-fish-coral-reefs-algae_3589-308.jpg" alt="Image 2">
+      
+      <p>Under the sea,above the soil</p>
+    </div>
+    <div class="column">
+      <h2>Audio & Visual</h2>
+      <h3>Watch</h3>
+      <video controls width="100%" style="max-width: 300px;"> 
+        <source src="inspi.mp4" type="video/mp4">
+        
+      </video>
+      <p>This is very interesting to watch.</p>
+      <h3>Listen</h3>
+      <audio controls width="100%">
+        <source src="ad.m4a" type="audio/mpeg">
+        
+      </audio>
+      <p>Listen to the audio to enjoy a lot.</p>
+      <h3>Video</h3>
+      <video controls width="100%" style="max-width: 300px;"> 
+        <source src="vd.mp4" type="video/mp4">
+        
+      </video>
+      <p>Watch the video to enjoy a lot.</p>
+    </div>
+    <div class="column">
+      <h2>Movie Poster</h2>
+      <h3>Beautiful Village</h3>
+      <img src="https://as1.ftcdn.net/v2/jpg/06/06/79/70/1000_F_606797008_rGPPk6bFWDQydnX7g7w1w9dVVZ4mD22J.jpg" alt="Image 3">
+      
+      <p>This is a very beautiful village.</p>
+      
+      <h3>Brave</h3>
+      <img src="https://a.ltrbxd.com/resized/sm/upload/wb/as/st/9d/EC6333EA-2042-433E-84AB-FFC355EDD9F2-1200-1200-675-675-crop-000000.jpg?v=96b73842f0" alt="Image 4">
+      <p>Brave is a great animation movie.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; A Beautiful Gallery.All rights reserved by Chandnee</p>
+  </div>
+</body>
+</html>
